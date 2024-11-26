@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const admin = require("firebase-admin");
 
-const serviceAccount = require("./serverKey.json");
+const serviceAccount = require("NeedToAddYourServerKey");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
